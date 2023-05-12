@@ -1,1 +1,30 @@
+.popup {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
 
+.popup-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(236, 201, 238, 0.5);
+}
+
+.btn {
+	background-color: blueviolet;
+	color: #f6f1f1;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: brown;
+}
